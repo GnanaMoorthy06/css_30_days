@@ -1,0 +1,40 @@
+.navigation{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+}
+
+.heading,.ul,li{
+    display: inline;
+}
+
+h1{
+    margin-right: 60%;
+}
+
+input{
+    margin-top: 30px;
+    margin-left: 150px;
+    display: inline-block;
+    width: 1200px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div{
+ height: 250px;
+    width: 200px;
+    border: 2px black solid;
+    padding: 20px;
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+img{
+    height: 200px;
+    width: 150px;
+}
+h2{
+    text-align: center;
+}
