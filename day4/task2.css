@@ -1,0 +1,22 @@
+.heading{
+        height: 300px;
+        width: 300px;
+        background-color: black;
+        display: inline-block;
+
+}
+    .div2{
+        height: 300px;
+        width: 300px;
+        background-color: red;
+        display: inline-block;
+
+    }
+    .h31{
+        background-color: yellow;
+        display: inline;
+    }
+    .h32{
+        background-color: red;
+        display: inline;
+    }
