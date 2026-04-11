@@ -1,0 +1,29 @@
+
+
+body{
+    background-color: antiquewhite;
+}
+
+.card{
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgba(226, 69, 121, 0.975);
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.data{
+    height: 60%;
+    background-color: aliceblue;
+     color: gray;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.img{
+    height: 40%;
+   
+}

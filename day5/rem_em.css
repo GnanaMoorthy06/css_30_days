@@ -1,0 +1,4 @@
+html{ font-size: 20px;} /* root element */
+p{ font-size: 3em;} /* 20px X 3 = 60px */
+p span{ font-size: 2em;} /* 60px X 2 = 120px */
+p strong{ font-size: 2rem;} /* 20px X 2 = 40px  */
