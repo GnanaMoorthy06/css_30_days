@@ -1,0 +1,22 @@
+ul,li,h1{
+    display: inline;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    border-radius: 10px;
+}
+ul{
+    position: absolute;
+    right: 20px;
+}
+h1{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    bottom: 15px;
+}
