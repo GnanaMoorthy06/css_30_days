@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+    margin: 30px;
+   text-align: center;
+}
+.container{
+    height: 500px;
+    width: 900px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, 0.303);
+    border-radius: 10px;
+
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.parent{
+}

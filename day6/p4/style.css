@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.container div {
+    margin: 10px;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
