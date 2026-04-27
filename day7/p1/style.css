@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.layout{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: 
+    "h h h h h"
+    "s1 m1 m1 m1 s2"
+    "f f f f f";
+    
+}
+
+.Header{
+    grid-area: h;
+}
+
+.sideBar1{
+    grid-area: s1;
+}
+
+.sideBar2{
+    grid-area: s2;
+}
+
+.mainContent{
+    grid-area: m1;
+}
+
+.footer{
+    grid-area: f;
+}
+
+.layout div{
+    border: 2px solid white;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
