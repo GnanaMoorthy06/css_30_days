@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container{
+    /* height: 100px; */
+    display: flex;
+        justify-content: space-around;
+        /* flex-wrap: wrap; */
+
+
+}
+
+.container div {
+    margin: 10px;
+    height: 100px;
+flex-basis: 20%;
+}
+
+    @media screen and (max-width:600px) {
+        .container div {
+flex-basis: 40%;
+}
+    }
+    @media screen and (max-width:400px) {
+        .container div {
+flex-basis: 80%;
+}
+    }
+
+.one {
+    
+    background-color: aqua;
+}
+
+.two {
+    background-color: brown;
+}
+
+.three {
+
+    background-color: yellow;
+}
+
+.four {
+
+    background-color: violet;
+}
